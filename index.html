@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Las mejores Guitarras</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/invie.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+  </head>
+  <body class="body">
+    <div class="portada">
+      <header class="menu">
+          <img src="images/invie.png" alt="Logo Invie">
+          <a href="precios.html">Precio</a>
+          <a href="index.html#guitarras">Guitarras</a>
+          <a href="index.html">Home</a>
+      </header>
+      <section class="section1">
+        <h1>Guitarras inviesibles</h1>
+        <p>Se la estrella de rock que siempre quisiste ser</p>
+        <a class="button" href="#guitarras">Conoce mas</a>
+      </section>
+    </div>
+    <section class=guitarras id=guitarras>
+      <h3 >Nuestras Guitarras</h3>
+      <div class="guitarra-a">
+        <img class="right" src="images/invie-acustica.png" alt="Guitarra acustica" width="300">
+        <div class="atributos-a">
+          <h2>Invie Acustica</h2>
+          <ol>
+            <li>Estilo vintage</li>
+            <li>Madera pura</li>
+            <li>Incluye estuche invisible de aluminio</li>
+          </ol>
+        </div>
+      </div>
+      <div class="guitarra-b">
+        <img class="left" src="images/invie-classic.png" alt="guitarra classic" width="400">
+        <div class="atributos-b">
+          <h2>Invie Classic</h2>
+            <ol>
+              <li>Estilo vintage</li>
+              <li>Liviana</li>
+              <li>Inicia tu camino como rockstar</li>
+            </ol>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="contacto">
+          <img src="images/invie-white.png" alt="logoinvie blanco">
+          <a href="tel:+573156294932"><strong>Telefono</strong><span>3156294932</span></a>
+          <a href="mailto:contacto@invie.com"><strong>E-mail</strong><span>contacto@invie.com</span></a>
+      </div>
+      <form class="formulario">
+        <div class="col1">
+          <label for="nombre">Nombre</label>
+          <input type="text" required id="nombre" name="nombre"/>
+          <label for="email">E-mail</label>
+          <input type="email"required id="email" name="email"/>
+          <div class="sexo">
+            <label for="mujer">
+              <input type="radio" checked id="mujer" name="sexo" value="mujer"/>Mujer
+            </label>
+            <label for="hombre">
+              <input type="radio" id="hombre" name="sexo" value="hombre" />Hombre
+            </label>
+          </div>
+          <div class="intereses">
+            <label for="cotizacion">
+              <input type="checkbox" checked name="intereses" id="cotizacion" value="cotizacion" >Cotización
+            </label>
+            <label for="reclamos">
+              <input type="checkbox" name="intereses" id="reclamos" value="reclamos" >Reclamos
+            </label>
+            <label for="comentarios">
+              <input type="checkbox" name="intereses" id="comentarios" value="comentarios" >Comentarios
+            </label>
+            <label for="otros">
+              <input type="checkbox" name="intereses" id="otros" value="otros" >Otros
+            </label>
+          </div>
+        </div>
+        <div class="col2">
+          <label for="comentarios">Comentarios</label>
+          <textarea name="comentarios" id="comentarios" rows="7" cols="30"></textarea>
+          <input class="button" type="submit" name="" value="enviar">
+
+        </div>
+      </form>
+    </div>
+  </footer>
+</html>
